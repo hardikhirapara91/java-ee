@@ -9,18 +9,21 @@
   <description>LoginApp6</description>
   
   <dependencies>
-  	<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-	<dependency>
-	    <groupId>mysql</groupId>
-	    <artifactId>mysql-connector-java</artifactId>
-	    <version>5.1.6</version>
-	</dependency>
-	<!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
-	<dependency>
-	    <groupId>javax.servlet</groupId>
-	    <artifactId>servlet-api</artifactId>
-	    <version>2.5</version>
-	</dependency>
+
+    <!-- SERVLET, JSP & JSTL -->
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>servlet-api</artifactId>
+        <version>2.5</version>
+    </dependency>
+
+  	<!-- MYSQL -->
+  	<dependency>
+  	    <groupId>mysql</groupId>
+  	    <artifactId>mysql-connector-java</artifactId>
+  	    <version>5.1.6</version>
+  	</dependency>
+  	
   </dependencies>
   
   <build>
